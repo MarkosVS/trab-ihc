@@ -1,7 +1,7 @@
 header{
 	width: 100%;
 	height: 50px;
-	background: cyan;
+	background: #00cccc;
 }
 
 #logo {
@@ -11,6 +11,7 @@ header{
 }
  
 #menu {
+	font-family: 'Oswald', sans-serif;
 	width: 70%;
 	height: 100%;
 	float: left;
@@ -19,6 +20,7 @@ header{
 #list-menu li {
 	display: inline-block;
 	line-height: 50px;
+	margin: 0 5px;
 }
 
 #list-menu li a {
@@ -29,5 +31,22 @@ header{
 #corpo {
 	background: green;
 	width: 100%;
-	min-height: 700px;
+	min-height: 846px;
+}
+
+#foto {
+	background: yellow;
+	width: 50%;
+	float: left;
+	min-height: 846px;
+}
+
+#principal{
+	background: #FFF;
+	width: 50%;
+	float: left;
+	min-height: 846px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
 }
