@@ -1,3 +1,33 @@
-body {
-   background: blue;
+header{
+	width: 100%;
+	height: 50px;
+	background: cyan;
+}
+
+#logo {
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+ 
+#menu {
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+ 
+#list-menu li {
+	display: inline-block;
+	line-height: 50px;
+}
+
+#list-menu li a {
+	text-decoration: none;
+	color: #FFF;
 } 
+ 	
+#corpo {
+	background: green;
+	width: 100%;
+	min-height: 700px;
+}
