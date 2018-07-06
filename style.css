@@ -35,6 +35,10 @@ header{
  	
 #corpo{
 	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #000;
 }
 
 #foto{
@@ -50,14 +54,9 @@ header{
 	background: #FFF;
 	width: 50%;
 	float: left;
-	min-height: 846px;
-	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
-	line-height: 1.5;
-	color: #000;
 }
 
-#principal p{
+#principal p, #principal h1{
 	margin: 8px 5px;
 }
 
