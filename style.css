@@ -4,41 +4,46 @@ header{
 	background: #00cccc;
 }
 
-#logo {
+#logo{
 	width: 30%;
 	height: 100%;
 	float: left;
 }
+
+#logo img{
+	max-width: 45%;
+	margin: 5px;
+}
  
-#menu {
+#menu{
 	font-family: 'Oswald', sans-serif;
 	width: 70%;
 	height: 100%;
 	float: left;
 }
  
-#list-menu li {
+#list-menu li{
 	display: inline-block;
 	line-height: 50px;
 	margin: 0 5px;
 }
 
-#list-menu li a {
+#list-menu li a{
 	text-decoration: none;
 	color: #FFF;
 } 
  	
-#corpo {
-	background: green;
+#corpo{
 	width: 100%;
-	min-height: 846px;
 }
 
-#foto {
-	background: yellow;
+#foto{
 	width: 50%;
 	float: left;
-	min-height: 846px;
+}
+
+#foto img{
+	width: 100%;
 }
 
 #principal{
@@ -49,4 +54,25 @@ header{
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	line-height: 1.5;
+	color: #000;
+}
+
+#principal p{
+	margin: 8px 5px;
+}
+
+#principal p a{
+	text-decoration: none;
+	color: #000;
+}
+
+#principal p a:hover{
+	text-decoration: underline;
+}
+
+footer{
+	margin: 8px 5px;
+}
+.icon-social {
+	width: 40px;
 }
