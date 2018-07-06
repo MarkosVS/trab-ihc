@@ -109,3 +109,18 @@ footer{
 	text-decoration: underline;
 
 }
+
+.servicos{
+	font-size:30px !important;	
+}
+
+.servicos h1, .servicos h2{
+	margin: 8px 5px;
+}
+
+#opcoes a{
+	color: #00cccc;
+	text-decoration: none;
+	margin: 8px 5px;
+	font-size: 25px;
+}
